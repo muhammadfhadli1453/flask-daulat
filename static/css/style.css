@@ -1,0 +1,61 @@
+/*.s2 {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url(/static/img/section2.jpg);
+	background-size: cover;
+}*/
+
+.jumbotron {
+  position: relative;
+  overflow: hidden;
+  background-color:black;
+}
+.jumbotron video {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width:100%;
+  height:100%;
+  /*  object-fit is not supported on IE  */
+  object-fit: cover;
+  opacity:0.5;
+}
+.jumbotron .container {
+  z-index: 2;
+  position: relative;
+}
+
+
+.vertical-center {
+  min-height: 100%; /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+  display: flex;
+  align-items: center;
+}
+
+.display-4 {
+  font-size: 10rem;
+}
+
+.daulat {
+  color: red;
+}
+
+.mb-4 {
+  font-size: 2.0625rem;
+}
+
+#nav1 {
+  background-color: rgba(255, 255, 255, 0.5); /*whichever you want*/
+  /*opacity: 0.5; 
+    filter:(opacity=50);  */
+  font-size: 1.3em;
+  /* flood-color: #ffffff; */
+}
+
+.category {
+  font-size: 1.3em;
+  font-weight: 900;
+}
+
+#penghinaan {
+  color: #ff0000;
+}
